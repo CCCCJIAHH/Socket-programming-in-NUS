@@ -1,0 +1,22 @@
+
+This programme is written in Ubuntu 19.10 using Python.  Ubuntu is a Linux system with Python 3 installed.
+______________________________________________________________________________________________________________________________________________________________________________________________________
+
+To run this program, you can uses Python to run it. But make sure you have install all these libraries:
+	1) socket
+	2) datetime
+	3) sys
+	4) os
+______________________________________________________________________________________________________________________________________________________________________________________________________
+
+I will talk the way to run on Ubuntu.
+	1) open the file using "cd"
+ 	2) run the server using " Python3 server.py" 
+ 	3) run the client using " Python3 persistent_client.py" or "Python3 non_persistent_client.py" depending on wich client you want to use
+_______________________________________________________________________________________________________________________________________________________________________________________________________
+
+Important tips: 
+ 	1) make sure that you run the server first. If you first run the client, there will be no connection.
+ 	2) make sure after you run the server, run the client in 15 seconds for I set a timeout of 15 seconds. If there is no conenction established, the server will be closed. 
+	 3) make sure that there are a.jpg, b.mp3 and c.txt in the same folder with server and clients.
+ 	4) when the server shows "the channel or net is already been used", just type left-control+c to clear the memory.
